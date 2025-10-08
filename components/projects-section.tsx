@@ -12,7 +12,6 @@ export function ProjectsSection() {
       image: "/modern-e-commerce-website-interface-with-product-g.jpg",
       technologies: ["Django", "Python", "MySQL", "JavaScript", "HTML", "CSS"],
       github: "https://github.com/santhosh487/Ecommerce-project",
-      demo: "#",
       status: "Completed",
     },
     
@@ -23,7 +22,6 @@ export function ProjectsSection() {
       image: "/zom.png",
       technologies: ["HTML", "CSS",],
       github: "https://github.com/santhosh487/zomato",
-      demo: "http://127.0.0.1:5500/zomato/index.html",
       status: "In Progress",
     },
   ]
@@ -87,12 +85,7 @@ export function ProjectsSection() {
                       Code
                     </a>
                   </Button>
-                  <Button size="sm" asChild>
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      Demo
-                    </a>
-                  </Button>
+                  
                 </div>
               </CardContent>
             </Card>
